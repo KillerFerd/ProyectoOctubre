@@ -16,6 +16,7 @@ public class Usuarios extends javax.swing.JFrame {
      */
     public Usuarios() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
