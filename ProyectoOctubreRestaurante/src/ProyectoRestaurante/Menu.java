@@ -58,9 +58,19 @@ public class Menu extends javax.swing.JFrame {
 
         btnUsuarios.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnUsuarios.setText("Usuarios");
+        btnUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUsuariosActionPerformed(evt);
+            }
+        });
 
         btnFactura.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnFactura.setText("Generar Factura");
+        btnFactura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFacturaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -137,6 +147,18 @@ public class Menu extends javax.swing.JFrame {
         v2.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btnProductosActionPerformed
+
+    private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
+        Usuarios v3=new Usuarios();
+        v3.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btnUsuariosActionPerformed
+
+    private void btnFacturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFacturaActionPerformed
+        Factura v4=new Factura();
+        v4.setVisible(true);
+        this.setVisible(false);        
+    }//GEN-LAST:event_btnFacturaActionPerformed
 
     /**
      * @param args the command line arguments
