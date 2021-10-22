@@ -67,8 +67,10 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="btnClientes" min="-2" pref="200" max="-2" attributes="0"/>
                       <Component id="btnProductos" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Component id="btnUsuarios" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Component id="btnFactura" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="btnFactura" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="btnUsuarios" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace pref="148" max="32767" attributes="0"/>
               </Group>
